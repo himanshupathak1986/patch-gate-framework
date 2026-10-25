@@ -1,0 +1,8 @@
+{
+  "source_per_patch_sha256": "fa429e13ce7bc8d4a9fac97849a302d41683c53934cd58e352df0db236a33362",
+  "scope": "new 60-case exploratory static-check evaluation, separate from synthetic demo and prior analyses",
+  "selected_task_overlap": 15,
+  "independent_ground_truth": "not collected",
+  "notable_diagnostic_dependence": "F401 occurs on the same requests task in both runs; B310 occurs on a separate pytest task",
+  "repetitions_per_mode": 3
+}

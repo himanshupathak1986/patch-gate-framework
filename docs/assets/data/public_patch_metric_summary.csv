@@ -1,0 +1,13 @@
+run,metric,comparable_patches,mean_delta,median_delta,increased,decreased,unchanged
+gemini_mini,cc_mean,30,0.05147335845970131,0.007514353259034046,16,4,10
+gemini_mini,cc_max,30,0.13333333333333333,0.0,4,1,25
+gemini_mini,mi,30,-0.3227813716022567,-0.05243796520903676,2,18,10
+gemini_mini,halstead_volume,30,30.200481435500578,0.0,13,0,17
+gemini_mini,max_nesting,30,0.01111111111111111,0.0,2,1,27
+gemini_mini,max_function_lines,30,1.6222222222222222,0.0,9,0,21
+agentless_gpt4o,cc_mean,30,0.02584240030412023,0.0,13,3,14
+agentless_gpt4o,cc_max,30,0.13333333333333333,0.0,4,0,26
+agentless_gpt4o,mi,30,-0.15817124408691283,-0.00643595195435509,4,15,11
+agentless_gpt4o,halstead_volume,30,11.772575814192669,0.0,10,2,18
+agentless_gpt4o,max_nesting,30,0,0.0,0,0,30
+agentless_gpt4o,max_function_lines,30,0.16666666666666666,0.0,3,0,27

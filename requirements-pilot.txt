@@ -1,0 +1,4 @@
+# Versions used for the local pilot; no model APIs or network needed at runtime.
+ruff==0.17.2
+bandit==1.9.4
+radon==6.0.1

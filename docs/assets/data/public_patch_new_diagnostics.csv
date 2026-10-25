@@ -1,0 +1,4 @@
+run,instance_id,repo,path,tool,rule,scanner_severity,independent_harm_label
+gemini_mini,pytest-dev__pytest-5809,pytest-dev/pytest,src/_pytest/pastebin.py,bandit,B310,MEDIUM,unknown
+gemini_mini,psf__requests-2317,psf/requests,requests/sessions.py,ruff,F401,WARNING,unknown
+agentless_gpt4o,psf__requests-2317,psf/requests,requests/sessions.py,ruff,F401,WARNING,unknown

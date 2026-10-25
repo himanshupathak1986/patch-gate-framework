@@ -1,0 +1,2 @@
+# Optional, local-only generation of README charts; not needed by the scanner.
+matplotlib==3.11.2

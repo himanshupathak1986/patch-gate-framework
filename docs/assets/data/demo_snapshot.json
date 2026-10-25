@@ -1,0 +1,212 @@
+{
+  "schema": "patch-gate-readme-figures/1",
+  "scope": "Four synthetic engineering cases; no independent defect or vulnerability labels.",
+  "timing_scope": "Warm static-check time, including selection and subprocess startup; shared input preparation and report generation excluded.",
+  "manifest_sha256": "d322a1eb87341f45162cfa6dbb88a97fe9c2d0086f53546410a5287db44212c9",
+  "cases": [
+    {
+      "id": "sensitive_eval",
+      "label": "Eval introduced",
+      "kind": "synthetic",
+      "report_sha256": "deb929d2ed60ddbdef11c06d5d29dad4a9f86559afcfe403a8ca3a13a62e23d7",
+      "tool_versions": {
+        "python": "3.14.6",
+        "ruff": "0.17.2",
+        "bandit": "1.9.4",
+        "radon": "6.0.1"
+      },
+      "timings_seconds": {
+        "adaptive": [
+          0.1796529580024071,
+          0.16962008399423212,
+          0.17270270799053833
+        ],
+        "full": [
+          0.17326650000177324,
+          0.17953137500444427,
+          0.17052845799480565
+        ]
+      },
+      "new_bandit_warnings": {
+        "adaptive": 1,
+        "full": 1
+      },
+      "metrics": {
+        "before": {
+          "lines": 2,
+          "function_count": 1,
+          "cc_mean": 1.0,
+          "cc_max": 1,
+          "mi": 100.0,
+          "halstead_volume": 0,
+          "max_nesting": 0,
+          "max_function_lines": 2
+        },
+        "after": {
+          "lines": 2,
+          "function_count": 1,
+          "cc_mean": 1.0,
+          "cc_max": 1,
+          "mi": 100.0,
+          "halstead_volume": 0,
+          "max_nesting": 0,
+          "max_function_lines": 2
+        }
+      },
+      "bandit_selected": true
+    },
+    {
+      "id": "benign_edit",
+      "label": "Documentation edit",
+      "kind": "synthetic",
+      "report_sha256": "deda29cd59d37958604f72df87a170dff23307a760c95fdb38abb97abb5816eb",
+      "tool_versions": {
+        "python": "3.14.6",
+        "ruff": "0.17.2",
+        "bandit": "1.9.4",
+        "radon": "6.0.1"
+      },
+      "timings_seconds": {
+        "adaptive": [
+          0.03681408299598843,
+          0.036845458002062514,
+          0.03606574999867007
+        ],
+        "full": [
+          0.168510958988918,
+          0.16974616702646017,
+          0.1675402499968186
+        ]
+      },
+      "new_bandit_warnings": {
+        "adaptive": 0,
+        "full": 0
+      },
+      "metrics": {
+        "before": {
+          "lines": 2,
+          "function_count": 1,
+          "cc_mean": 1.0,
+          "cc_max": 1,
+          "mi": 88.5574946685516,
+          "halstead_volume": 4.754887502163469,
+          "max_nesting": 0,
+          "max_function_lines": 2
+        },
+        "after": {
+          "lines": 3,
+          "function_count": 1,
+          "cc_mean": 1.0,
+          "cc_max": 1,
+          "mi": 84.71624627594792,
+          "halstead_volume": 4.754887502163469,
+          "max_nesting": 0,
+          "max_function_lines": 3
+        }
+      },
+      "bandit_selected": false
+    },
+    {
+      "id": "shift_existing",
+      "label": "Existing warning moved",
+      "kind": "synthetic",
+      "report_sha256": "f1e1dfd2504543fc27df7ee25d3f5321c2cd23344e4639505ece21b8825fe8e8",
+      "tool_versions": {
+        "python": "3.14.6",
+        "ruff": "0.17.2",
+        "bandit": "1.9.4",
+        "radon": "6.0.1"
+      },
+      "timings_seconds": {
+        "adaptive": [
+          0.1695059160119854,
+          0.18753024999750778,
+          0.17455895798048005
+        ],
+        "full": [
+          0.16920395797933452,
+          0.16916733302059583,
+          0.16962479101493955
+        ]
+      },
+      "new_bandit_warnings": {
+        "adaptive": 0,
+        "full": 0
+      },
+      "metrics": {
+        "before": {
+          "lines": 2,
+          "function_count": 1,
+          "cc_mean": 1.0,
+          "cc_max": 1,
+          "mi": 100.0,
+          "halstead_volume": 0,
+          "max_nesting": 0,
+          "max_function_lines": 2
+        },
+        "after": {
+          "lines": 4,
+          "function_count": 1,
+          "cc_mean": 1.0,
+          "cc_max": 1,
+          "mi": 100.0,
+          "halstead_volume": 0,
+          "max_nesting": 0,
+          "max_function_lines": 2
+        }
+      },
+      "bandit_selected": true
+    },
+    {
+      "id": "adaptive_miss_assert",
+      "label": "Assert added",
+      "kind": "synthetic",
+      "report_sha256": "59bb6037dd90c2c69fee05a4e516ea21af3bbf12c8c26e0e29c95dd21551395b",
+      "tool_versions": {
+        "python": "3.14.6",
+        "ruff": "0.17.2",
+        "bandit": "1.9.4",
+        "radon": "6.0.1"
+      },
+      "timings_seconds": {
+        "adaptive": [
+          0.03692600000067614,
+          0.039658207999309525,
+          0.03593870799522847
+        ],
+        "full": [
+          0.18095962499501184,
+          0.16941887498251162,
+          0.1696050830068998
+        ]
+      },
+      "new_bandit_warnings": {
+        "adaptive": 0,
+        "full": 1
+      },
+      "metrics": {
+        "before": {
+          "lines": 2,
+          "function_count": 1,
+          "cc_mean": 1.0,
+          "cc_max": 1,
+          "mi": 100.0,
+          "halstead_volume": 0,
+          "max_nesting": 0,
+          "max_function_lines": 2
+        },
+        "after": {
+          "lines": 3,
+          "function_count": 1,
+          "cc_mean": 2.0,
+          "cc_max": 2,
+          "mi": 84.58174335197131,
+          "halstead_volume": 4.754887502163469,
+          "max_nesting": 0,
+          "max_function_lines": 3
+        }
+      },
+      "bandit_selected": false
+    }
+  ]
+}

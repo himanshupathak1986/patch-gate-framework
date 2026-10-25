@@ -1,0 +1,18 @@
+{
+  "role": "New exploratory static-check pilot; no prior statistical results imported",
+  "seed": 42,
+  "requested_per_run": 30,
+  "input_sha256": {
+    "swebench_verified_gold.json": "b087b5dad72b3e765a6cf93a9e7d516d8796698a0fd358abb73c6627df19f66e",
+    "original_results.json": "9fc1d88077468b2c655ba76d3de799094c565567ec175e389a3ab7a198949e57",
+    "second_results.json": "d4348eed42bb970040e057b353ddc04e94b9e0c0a1b3685242c9e1647a8c82a2",
+    "original_predictions.jsonl": "74e15b9ceb4b4e2e53a92fc8b87465aaf594a7754a2f707bc02ab69487b212f9",
+    "second_predictions.jsonl": "36e71807a34492f2e27303a9389ff14ce42c87972a5254309c37872eb478470e"
+  },
+  "sampling": "Repository round-robin; candidates within repository ordered by SHA256(seed:instance_id); selection before check outcomes",
+  "eligibility": "Published resolved verdict, available prediction/metadata/base source, supported production-Python diff blocks",
+  "scope": "Production Python diff subsets only; tests and non-Python changes excluded; historical benchmark verdicts not rerun",
+  "outcomes": "Local static-check timing and scanner output, not independently confirmed bugs/vulnerabilities",
+  "dependence": "Two runs share benchmark tasks; rows across runs are not independent problems",
+  "external_inputs": "Caller must explicitly supply artifact cache and original verdict file; no automatic lookup or network access"
+}

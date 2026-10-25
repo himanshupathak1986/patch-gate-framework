@@ -1,0 +1,670 @@
+[
+  {
+    "run": "gemini_mini",
+    "label": "Gemini 3.5 Flash / mini-SWE-agent",
+    "instance_id": "astropy__astropy-7336",
+    "repo": "astropy/astropy",
+    "base_commit": "732d89c2940156bdc0e200bb36dc38b5e424bcba",
+    "patch_sha256": "8ebdcbd75827e60d135b59da0d5edc92f4bbdb085e9038e05ad138621843f7b7",
+    "base_source_sha256": {
+      "astropy/units/decorators.py": "f70d081b536f685fd13fe69b0eeffefdd97407ca466efe657d93fd71eeab769c"
+    }
+  },
+  {
+    "run": "gemini_mini",
+    "label": "Gemini 3.5 Flash / mini-SWE-agent",
+    "instance_id": "django__django-16116",
+    "repo": "django/django",
+    "base_commit": "5d36a8266c7d5d1994d7a7eeb4016f80d9cb0401",
+    "patch_sha256": "0867865ebc01242a2d0fc7d3d38dabdaff2a048edb5f8340044add75dd2068f3",
+    "base_source_sha256": {
+      "django/core/management/commands/makemigrations.py": "e5d3d4c45f8bf0f797886cd38b3013257098a000c46a973ecbdfcf52fcee90f8"
+    }
+  },
+  {
+    "run": "gemini_mini",
+    "label": "Gemini 3.5 Flash / mini-SWE-agent",
+    "instance_id": "matplotlib__matplotlib-13989",
+    "repo": "matplotlib/matplotlib",
+    "base_commit": "a3e2897bfaf9eaac1d6649da535c4e721c89fa69",
+    "patch_sha256": "da299aaf089064efb91ffbd52a4f7981171fea58c6b3c6727b6eeb2dd46ee769",
+    "base_source_sha256": {
+      "lib/matplotlib/axes/_axes.py": "6c4d3e43e8b4842976f388f41a131f1269c5f9131f8ab688a4e98760117c7e83"
+    }
+  },
+  {
+    "run": "gemini_mini",
+    "label": "Gemini 3.5 Flash / mini-SWE-agent",
+    "instance_id": "pallets__flask-5014",
+    "repo": "pallets/flask",
+    "base_commit": "7ee9ceb71e868944a46e1ff00b506772a53a4f1d",
+    "patch_sha256": "180357c836129112fd098f103c72dae9cefe5814d16575e35efe86a8e15dd1a9",
+    "base_source_sha256": {
+      "src/flask/blueprints.py": "9d296c3a0dffffbafd59ef15290a6d4c2061a470f3ad2b00709388d35d1dddc0"
+    }
+  },
+  {
+    "run": "gemini_mini",
+    "label": "Gemini 3.5 Flash / mini-SWE-agent",
+    "instance_id": "psf__requests-1766",
+    "repo": "psf/requests",
+    "base_commit": "847735553aeda6e6633f2b32e14ba14ba86887a4",
+    "patch_sha256": "40e0a038e85306243eb4f3f26a5fcea232c2ad640b0b4a2128daa0f2aaff25ba",
+    "base_source_sha256": {
+      "requests/auth.py": "e9ac12db8dfb81a4abe59e5e3b1764e01fe1f04dbdc5f57dc7deb7a47695087c"
+    }
+  },
+  {
+    "run": "gemini_mini",
+    "label": "Gemini 3.5 Flash / mini-SWE-agent",
+    "instance_id": "pydata__xarray-3305",
+    "repo": "pydata/xarray",
+    "base_commit": "69c7e01e5167a3137c285cb50d1978252bb8bcbf",
+    "patch_sha256": "934de3749611e173526504748dbec31321b7e367a35a21ddbd689a6a2f2c589f",
+    "base_source_sha256": {
+      "xarray/core/dataset.py": "7c6ba7d0b5f900fe06474b2340d0955650644f87f731634543da9deb682231d8",
+      "xarray/core/variable.py": "4c86b080db440e759b2d6af8fe95eb2fea895aa2763bfccbd79590cf240f7247"
+    }
+  },
+  {
+    "run": "gemini_mini",
+    "label": "Gemini 3.5 Flash / mini-SWE-agent",
+    "instance_id": "pytest-dev__pytest-5809",
+    "repo": "pytest-dev/pytest",
+    "base_commit": "8aba863a634f40560e25055d179220f0eefabe9a",
+    "patch_sha256": "82404b29f0f38d28515c887dafecfadea620eb9ba5e5d319de4f0edd01da815e",
+    "base_source_sha256": {
+      "src/_pytest/pastebin.py": "4afcaa8277ec2d295c94ccb664f2a51c37371aa71e31636146cceb5d1746c559"
+    }
+  },
+  {
+    "run": "gemini_mini",
+    "label": "Gemini 3.5 Flash / mini-SWE-agent",
+    "instance_id": "scikit-learn__scikit-learn-13439",
+    "repo": "scikit-learn/scikit-learn",
+    "base_commit": "a62775e99f2a5ea3d51db7160fad783f6cd8a4c5",
+    "patch_sha256": "eb0fd046faf036dfe95a20fd4450faaf2d9dbad5eadb6a7b06d4ece882527be4",
+    "base_source_sha256": {
+      "sklearn/pipeline.py": "5edf09a246eab29e377a248c1da61e2dd4bef20fc1eb1db9089b2410569f82bf"
+    }
+  },
+  {
+    "run": "gemini_mini",
+    "label": "Gemini 3.5 Flash / mini-SWE-agent",
+    "instance_id": "sphinx-doc__sphinx-10449",
+    "repo": "sphinx-doc/sphinx",
+    "base_commit": "36367765fe780f962bba861bf368a765380bbc68",
+    "patch_sha256": "1dcdbdcd4c115f8d8131c4ea9e28de6c3b303584eea123958db1c7c0fd33af64",
+    "base_source_sha256": {
+      "sphinx/ext/autodoc/typehints.py": "0aaee399b8e50baa387db5e4dff53289488fba51dc9371bf3ffecbeba81882b1"
+    }
+  },
+  {
+    "run": "gemini_mini",
+    "label": "Gemini 3.5 Flash / mini-SWE-agent",
+    "instance_id": "sympy__sympy-16450",
+    "repo": "sympy/sympy",
+    "base_commit": "aefdd023dc4f73c441953ed51f5f05a076f0862f",
+    "patch_sha256": "928b01ca6ac1af3869bc0f46b1566de00af41201e6faf03ae11cd00ec5ee0dcf",
+    "base_source_sha256": {
+      "sympy/simplify/simplify.py": "09fc8126345549b3ae0d84d4e5696ebff275b9a84e7df3ac56ba2e7d81c737b9"
+    }
+  },
+  {
+    "run": "gemini_mini",
+    "label": "Gemini 3.5 Flash / mini-SWE-agent",
+    "instance_id": "astropy__astropy-12907",
+    "repo": "astropy/astropy",
+    "base_commit": "d16bfe05a744909de4b27f5875fe0d4ed41ce607",
+    "patch_sha256": "7f233cc776d064f8e1d7d39bf0a846434e59d14cc07ac33aab803b7b758ee755",
+    "base_source_sha256": {
+      "astropy/modeling/separable.py": "cac38fe9744203c720d50d6c88dcdcb0d93a7b2326fe89911e83640ad5676b0f"
+    }
+  },
+  {
+    "run": "gemini_mini",
+    "label": "Gemini 3.5 Flash / mini-SWE-agent",
+    "instance_id": "django__django-15037",
+    "repo": "django/django",
+    "base_commit": "dab48b7482295956973879d15bfd4d3bb0718772",
+    "patch_sha256": "5429de44e91f736d4380dbf1448d420c281a8f1ea3aeda835ed6d674243d6381",
+    "base_source_sha256": {
+      "django/core/management/commands/inspectdb.py": "baf639040961a84b6160e481b6192fa88d494a90167183cd7e501f8d6d3b1455"
+    }
+  },
+  {
+    "run": "gemini_mini",
+    "label": "Gemini 3.5 Flash / mini-SWE-agent",
+    "instance_id": "psf__requests-2931",
+    "repo": "psf/requests",
+    "base_commit": "5f7a3a74aab1625c2bb65f643197ee885e3da576",
+    "patch_sha256": "6f32cca32587c19c33f01cb4168347e6dd0d7f924c18d1e84d928ec888841ee2",
+    "base_source_sha256": {
+      "requests/models.py": "a57e766a29b120c372e3bd236c80db1b2d696d96593cddb38c4fe150c41285ed"
+    }
+  },
+  {
+    "run": "gemini_mini",
+    "label": "Gemini 3.5 Flash / mini-SWE-agent",
+    "instance_id": "pydata__xarray-3677",
+    "repo": "pydata/xarray",
+    "base_commit": "ef6e6a7b86f8479b9a1fecf15ad5b88a2326b31e",
+    "patch_sha256": "dfecf5df51c4f8a2a1225880e9d698fbfa987ca6c15b186985847e4e0dad34ea",
+    "base_source_sha256": {
+      "xarray/core/merge.py": "ec1114bbc3828a342ab7ce428910bec7215fd4af2b04bf833e3ad89e9ac82088"
+    }
+  },
+  {
+    "run": "gemini_mini",
+    "label": "Gemini 3.5 Flash / mini-SWE-agent",
+    "instance_id": "pytest-dev__pytest-5262",
+    "repo": "pytest-dev/pytest",
+    "base_commit": "58e6a09db49f34886ff13f3b7520dd0bcd7063cd",
+    "patch_sha256": "a90a3eff9f607058b4d8483154088913db66daeb97db1e2c59677d3fbdd5dd1d",
+    "base_source_sha256": {
+      "src/_pytest/capture.py": "9e7f644c430e9e832efcf8b93bc025976a21cc2dedd60052e512558ff0e42fdc"
+    }
+  },
+  {
+    "run": "gemini_mini",
+    "label": "Gemini 3.5 Flash / mini-SWE-agent",
+    "instance_id": "scikit-learn__scikit-learn-14983",
+    "repo": "scikit-learn/scikit-learn",
+    "base_commit": "06632c0d185128a53c57ccc73b25b6408e90bb89",
+    "patch_sha256": "2bb1071a63d3fcad4e9a581eaf4ab3b9a220afc3e4913296741ba5103b86d9e3",
+    "base_source_sha256": {
+      "sklearn/model_selection/_split.py": "1b876ac6384ef15b6225ee40950021e67183b74e9c895537c028a740bd79e897"
+    }
+  },
+  {
+    "run": "gemini_mini",
+    "label": "Gemini 3.5 Flash / mini-SWE-agent",
+    "instance_id": "sphinx-doc__sphinx-9602",
+    "repo": "sphinx-doc/sphinx",
+    "base_commit": "6c38f68dae221e8cfc70c137974b8b88bd3baaab",
+    "patch_sha256": "1a8a4bfe81532d40c0219ca9824097c6cbb2ecc6f814a625571e4df9835c3de7",
+    "base_source_sha256": {
+      "sphinx/domains/python.py": "9fe7344f5282bdc42a2d54d65b3858b29699d5c35569d1abb75ff76f165fa254"
+    }
+  },
+  {
+    "run": "gemini_mini",
+    "label": "Gemini 3.5 Flash / mini-SWE-agent",
+    "instance_id": "sympy__sympy-22714",
+    "repo": "sympy/sympy",
+    "base_commit": "3ff4717b6aef6086e78f01cdfa06f64ae23aed7e",
+    "patch_sha256": "dc190bd72574a5f23930953c82184e1184c48d645d635a45763086150bfaab1d",
+    "base_source_sha256": {
+      "sympy/core/add.py": "abb47eb45f3bb2dbc80d43507df2d603fa416dd8565ca60c365074b471518c99",
+      "sympy/core/mul.py": "6c52cd7988c5716fd3a1d44162db4c8bfa73fe0e82e93eb6ff9ff91257efadc7",
+      "sympy/geometry/point.py": "54b6446efd9876eee6430a67f75728d0e2957a5cbff5901bf29449a111d5a52e"
+    }
+  },
+  {
+    "run": "gemini_mini",
+    "label": "Gemini 3.5 Flash / mini-SWE-agent",
+    "instance_id": "astropy__astropy-7606",
+    "repo": "astropy/astropy",
+    "base_commit": "3cedd79e6c121910220f8e6df77c54a0b344ea94",
+    "patch_sha256": "ff2893255010d27cbdf1698e6700ca6ea65c5284c96f99da58d30a2fff27b794",
+    "base_source_sha256": {
+      "astropy/units/core.py": "e688ee26f00bc4f538d3079efb1258d3f65055c9869f8c35619c67c1ddb51c9d"
+    }
+  },
+  {
+    "run": "gemini_mini",
+    "label": "Gemini 3.5 Flash / mini-SWE-agent",
+    "instance_id": "django__django-14608",
+    "repo": "django/django",
+    "base_commit": "7f33c1e22dbc34a7afae7967783725b10f1f13b1",
+    "patch_sha256": "80393a6b7491851d150374a10b8620b21c8738563b4609b9b96191b75931daf6",
+    "base_source_sha256": {
+      "django/forms/formsets.py": "2f9484d1eebefea1207629657c40d9f0cffca5d3584ef7c2174cd3ef048653b9"
+    }
+  },
+  {
+    "run": "gemini_mini",
+    "label": "Gemini 3.5 Flash / mini-SWE-agent",
+    "instance_id": "psf__requests-2317",
+    "repo": "psf/requests",
+    "base_commit": "091991be0da19de9108dbe5e3752917fea3d7fdc",
+    "patch_sha256": "40cb453038bc756ef10521cf9f936f2e26175d0e3877619b14bc036f809c036c",
+    "base_source_sha256": {
+      "requests/models.py": "9a559842d47f990877594687cc2e36d592d6510c3bbb20ffcbc0e4d09197aa96",
+      "requests/sessions.py": "968b595aa5367cec2dc5e519511da8ce2c7d1f6d7c28a9712effa64ae372e104"
+    }
+  },
+  {
+    "run": "gemini_mini",
+    "label": "Gemini 3.5 Flash / mini-SWE-agent",
+    "instance_id": "pydata__xarray-4695",
+    "repo": "pydata/xarray",
+    "base_commit": "51ef2a66c4e0896eab7d2b03e3dfb3963e338e3c",
+    "patch_sha256": "05395382067e0a8a14413b9857ac77aa68ae59bce3c2c150a96828e1b106755a",
+    "base_source_sha256": {
+      "xarray/core/computation.py": "a4d6845346759ec9a7c8caa03452032f46a78e1a31af127825f041a4ed213d09",
+      "xarray/core/dataarray.py": "af0230748cba5250306df3631a3b705830c3cace4302adb5dc1a1b2fcc8a080a",
+      "xarray/core/groupby.py": "a6e0e754320e09234728163cdc53e6949f9badb249f6919a77af4c61df2682bd"
+    }
+  },
+  {
+    "run": "gemini_mini",
+    "label": "Gemini 3.5 Flash / mini-SWE-agent",
+    "instance_id": "pytest-dev__pytest-5787",
+    "repo": "pytest-dev/pytest",
+    "base_commit": "955e54221008aba577ecbaefa15679f6777d3bf8",
+    "patch_sha256": "098262913c34e1bdc25eabe173608cb543c1e2e2b8e1de5aa896ef1f19201370",
+    "base_source_sha256": {
+      "src/_pytest/reports.py": "117caad56cce03d98a83bc3b1226a439db83e92faab1f9b50313fef9971337e3"
+    }
+  },
+  {
+    "run": "gemini_mini",
+    "label": "Gemini 3.5 Flash / mini-SWE-agent",
+    "instance_id": "scikit-learn__scikit-learn-12973",
+    "repo": "scikit-learn/scikit-learn",
+    "base_commit": "a7b8b9e9e16d4e15fabda5ae615086c2e1c47d8a",
+    "patch_sha256": "af3e53a27963310bc03646b8bbe0b39285eba43d08586e00458fce162f60ad5a",
+    "base_source_sha256": {
+      "sklearn/linear_model/least_angle.py": "9051c2ade388eb31c3a95bded71f44e95a8f74547ce4fdd508f6881133bf4f36"
+    }
+  },
+  {
+    "run": "gemini_mini",
+    "label": "Gemini 3.5 Flash / mini-SWE-agent",
+    "instance_id": "sphinx-doc__sphinx-7440",
+    "repo": "sphinx-doc/sphinx",
+    "base_commit": "9bb204dcabe6ba0fc422bf4a45ad0c79c680d90b",
+    "patch_sha256": "162fa46419e3f7cfd312488294e515d229da26bcb4727414d0cfa254d7bfeaa0",
+    "base_source_sha256": {
+      "sphinx/domains/std.py": "9169f42810428f50b7f77cebcec8dcfc8cbf8c2250a5ed066139fb614c89cb4a"
+    }
+  },
+  {
+    "run": "gemini_mini",
+    "label": "Gemini 3.5 Flash / mini-SWE-agent",
+    "instance_id": "sympy__sympy-20590",
+    "repo": "sympy/sympy",
+    "base_commit": "cffd4e0f86fefd4802349a9f9b19ed70934ea354",
+    "patch_sha256": "9b3b162c68b39db46c6f719bad3bb3e09e6bc1c9b77d87feafce729423ab25f7",
+    "base_source_sha256": {
+      "sympy/core/_print_helpers.py": "cc55d811d3d83daf7bb1a83e295e5073366136d2c7337f16d9dbb46ed05d5085",
+      "sympy/core/compatibility.py": "934fc2d4deed5b58276c7f0742efda1aa0c2bd73693c781a993f93a4ce375239"
+    }
+  },
+  {
+    "run": "gemini_mini",
+    "label": "Gemini 3.5 Flash / mini-SWE-agent",
+    "instance_id": "astropy__astropy-8707",
+    "repo": "astropy/astropy",
+    "base_commit": "a85a0747c54bac75e9c3b2fe436b105ea029d6cf",
+    "patch_sha256": "490948429e3992dc2f656dc536ea16625a51eb3ff9116738a4d2f5a8c8c23e24",
+    "base_source_sha256": {
+      "astropy/io/fits/card.py": "5412cc3d84284b0256863c121b59c6dba6ebe9484ef210ffcb0f168ca11a93e3",
+      "astropy/io/fits/header.py": "cd888a3a4f20cf0c5ce67c859f441c68d412f89a1c39fead86f38a3f44cc2ed1"
+    }
+  },
+  {
+    "run": "gemini_mini",
+    "label": "Gemini 3.5 Flash / mini-SWE-agent",
+    "instance_id": "django__django-15278",
+    "repo": "django/django",
+    "base_commit": "0ab58c120939093fea90822f376e1866fc714d1f",
+    "patch_sha256": "b33fa684d2295115f4aa210232e24451591da3c0f990fe78081810f174379246",
+    "base_source_sha256": {
+      "django/db/backends/sqlite3/schema.py": "d222fc0a4f0329626c1d8eb78593ff967d6e03202760b4c7b8c2ab7caf040165"
+    }
+  },
+  {
+    "run": "gemini_mini",
+    "label": "Gemini 3.5 Flash / mini-SWE-agent",
+    "instance_id": "psf__requests-5414",
+    "repo": "psf/requests",
+    "base_commit": "39d0fdd9096f7dceccbc8f82e1eda7dd64717a8e",
+    "patch_sha256": "141add588d27c77ef67fb11fbab1f69d98725ff1bd7454eac11bbeac271670ed",
+    "base_source_sha256": {
+      "requests/models.py": "c51202c76971a02910dd004688a4586ee1973ae3c354bf856a2c4575ebd1a888"
+    }
+  },
+  {
+    "run": "gemini_mini",
+    "label": "Gemini 3.5 Flash / mini-SWE-agent",
+    "instance_id": "pydata__xarray-4966",
+    "repo": "pydata/xarray",
+    "base_commit": "37522e991a32ee3c0ad1a5ff8afe8e3eb1885550",
+    "patch_sha256": "9d239dd94cfa5907dfa26f81804841d991079acdf55611620d2554c581608123",
+    "base_source_sha256": {
+      "xarray/coding/variables.py": "a9b8f8920ca942d5684cf7e9f259f641c863eb466be0e5aad2f7c28b1b20ff82"
+    }
+  },
+  {
+    "run": "agentless_gpt4o",
+    "label": "Agentless-1.5 / GPT-4o",
+    "instance_id": "astropy__astropy-7336",
+    "repo": "astropy/astropy",
+    "base_commit": "732d89c2940156bdc0e200bb36dc38b5e424bcba",
+    "patch_sha256": "c5fa0da8bf62161fcc0419b84d533896e020df2d8cbfc066bad2840ea45b82b8",
+    "base_source_sha256": {
+      "astropy/units/decorators.py": "f70d081b536f685fd13fe69b0eeffefdd97407ca466efe657d93fd71eeab769c"
+    }
+  },
+  {
+    "run": "agentless_gpt4o",
+    "label": "Agentless-1.5 / GPT-4o",
+    "instance_id": "django__django-16116",
+    "repo": "django/django",
+    "base_commit": "5d36a8266c7d5d1994d7a7eeb4016f80d9cb0401",
+    "patch_sha256": "ce148a1cef189b9cc65d542960c8809820fda95c794c63570a32336f1610488c",
+    "base_source_sha256": {
+      "django/core/management/commands/makemigrations.py": "e5d3d4c45f8bf0f797886cd38b3013257098a000c46a973ecbdfcf52fcee90f8"
+    }
+  },
+  {
+    "run": "agentless_gpt4o",
+    "label": "Agentless-1.5 / GPT-4o",
+    "instance_id": "matplotlib__matplotlib-25122",
+    "repo": "matplotlib/matplotlib",
+    "base_commit": "5ec2bd279729ff534719b8bf238dbbca907b93c5",
+    "patch_sha256": "3ea34d1d3d9da2c272618bd9ce484bb29ee98699591a405e50a59d864871fc34",
+    "base_source_sha256": {
+      "lib/matplotlib/mlab.py": "242db82751ba813626d4717e6f0a26d261ced5e8ca89bc31fa77d78756027874"
+    }
+  },
+  {
+    "run": "agentless_gpt4o",
+    "label": "Agentless-1.5 / GPT-4o",
+    "instance_id": "pallets__flask-5014",
+    "repo": "pallets/flask",
+    "base_commit": "7ee9ceb71e868944a46e1ff00b506772a53a4f1d",
+    "patch_sha256": "48e42a4f37a97096bb2dffff2407c69bfae9c97b98ead0e60f467b279821ad7a",
+    "base_source_sha256": {
+      "src/flask/blueprints.py": "9d296c3a0dffffbafd59ef15290a6d4c2061a470f3ad2b00709388d35d1dddc0"
+    }
+  },
+  {
+    "run": "agentless_gpt4o",
+    "label": "Agentless-1.5 / GPT-4o",
+    "instance_id": "psf__requests-1766",
+    "repo": "psf/requests",
+    "base_commit": "847735553aeda6e6633f2b32e14ba14ba86887a4",
+    "patch_sha256": "4a2830b11fbb79372baeb40e783eb77d5b52ca2d6adcbb8e54b2e1744508f383",
+    "base_source_sha256": {
+      "requests/auth.py": "e9ac12db8dfb81a4abe59e5e3b1764e01fe1f04dbdc5f57dc7deb7a47695087c"
+    }
+  },
+  {
+    "run": "agentless_gpt4o",
+    "label": "Agentless-1.5 / GPT-4o",
+    "instance_id": "pydata__xarray-3677",
+    "repo": "pydata/xarray",
+    "base_commit": "ef6e6a7b86f8479b9a1fecf15ad5b88a2326b31e",
+    "patch_sha256": "66d1442f8bc6e542b007eded560fe9fe43cf15413cfa8ab9622bcb6f474cf4cd",
+    "base_source_sha256": {
+      "xarray/core/dataset.py": "9754b97e301b12f3933b2287a726535f6203b6940a8a390cac27f8259c84c05f"
+    }
+  },
+  {
+    "run": "agentless_gpt4o",
+    "label": "Agentless-1.5 / GPT-4o",
+    "instance_id": "pylint-dev__pylint-6903",
+    "repo": "pylint-dev/pylint",
+    "base_commit": "ca80f03a43bc39e4cc2c67dc99817b3c9f13b8a6",
+    "patch_sha256": "f7240c98d3d194df14380778b704b0a994b45e49c6421462f52880c445fbd1f4",
+    "base_source_sha256": {
+      "pylint/lint/run.py": "1d15f14c50e88cec1bc45c8c8eeba498ab90cee001b955ac5cadd95a43724585"
+    }
+  },
+  {
+    "run": "agentless_gpt4o",
+    "label": "Agentless-1.5 / GPT-4o",
+    "instance_id": "pytest-dev__pytest-5809",
+    "repo": "pytest-dev/pytest",
+    "base_commit": "8aba863a634f40560e25055d179220f0eefabe9a",
+    "patch_sha256": "0d6550902b737a79c9ae260dfa5bae5c4c0143a0e09c87cfbc0ea87513f6414b",
+    "base_source_sha256": {
+      "src/_pytest/pastebin.py": "4afcaa8277ec2d295c94ccb664f2a51c37371aa71e31636146cceb5d1746c559"
+    }
+  },
+  {
+    "run": "agentless_gpt4o",
+    "label": "Agentless-1.5 / GPT-4o",
+    "instance_id": "scikit-learn__scikit-learn-13439",
+    "repo": "scikit-learn/scikit-learn",
+    "base_commit": "a62775e99f2a5ea3d51db7160fad783f6cd8a4c5",
+    "patch_sha256": "4607db05432cc410a6d4ab13d1b689bf299389865401ca9ba7f8797ed3ca0fd4",
+    "base_source_sha256": {
+      "sklearn/pipeline.py": "5edf09a246eab29e377a248c1da61e2dd4bef20fc1eb1db9089b2410569f82bf"
+    }
+  },
+  {
+    "run": "agentless_gpt4o",
+    "label": "Agentless-1.5 / GPT-4o",
+    "instance_id": "sphinx-doc__sphinx-10449",
+    "repo": "sphinx-doc/sphinx",
+    "base_commit": "36367765fe780f962bba861bf368a765380bbc68",
+    "patch_sha256": "483cee0cc3ae5a67111d9f02800b8baa62acb3418b69e68628a385ebb66e26ac",
+    "base_source_sha256": {
+      "sphinx/ext/autodoc/typehints.py": "0aaee399b8e50baa387db5e4dff53289488fba51dc9371bf3ffecbeba81882b1"
+    }
+  },
+  {
+    "run": "agentless_gpt4o",
+    "label": "Agentless-1.5 / GPT-4o",
+    "instance_id": "sympy__sympy-22714",
+    "repo": "sympy/sympy",
+    "base_commit": "3ff4717b6aef6086e78f01cdfa06f64ae23aed7e",
+    "patch_sha256": "58a06fc79406cfe5853734915ab9868511e0972c687625750f11b9e78e604509",
+    "base_source_sha256": {
+      "sympy/geometry/point.py": "54b6446efd9876eee6430a67f75728d0e2957a5cbff5901bf29449a111d5a52e"
+    }
+  },
+  {
+    "run": "agentless_gpt4o",
+    "label": "Agentless-1.5 / GPT-4o",
+    "instance_id": "astropy__astropy-12907",
+    "repo": "astropy/astropy",
+    "base_commit": "d16bfe05a744909de4b27f5875fe0d4ed41ce607",
+    "patch_sha256": "2594deb51e462a5dda5f669aaba17ef818c0c109f512cf60d4dabdf4c425ba72",
+    "base_source_sha256": {
+      "astropy/modeling/separable.py": "cac38fe9744203c720d50d6c88dcdcb0d93a7b2326fe89911e83640ad5676b0f"
+    }
+  },
+  {
+    "run": "agentless_gpt4o",
+    "label": "Agentless-1.5 / GPT-4o",
+    "instance_id": "django__django-15278",
+    "repo": "django/django",
+    "base_commit": "0ab58c120939093fea90822f376e1866fc714d1f",
+    "patch_sha256": "62de6d98af882de6231c874bd7f88ece2794945bbeef779d2d801ef416a13746",
+    "base_source_sha256": {
+      "django/db/backends/sqlite3/schema.py": "d222fc0a4f0329626c1d8eb78593ff967d6e03202760b4c7b8c2ab7caf040165"
+    }
+  },
+  {
+    "run": "agentless_gpt4o",
+    "label": "Agentless-1.5 / GPT-4o",
+    "instance_id": "matplotlib__matplotlib-25775",
+    "repo": "matplotlib/matplotlib",
+    "base_commit": "26224d96066b5c60882296c551f54ca7732c0af0",
+    "patch_sha256": "dbf9345d9dffdaa46ccc467599f1bbfb008a7414a0d18ce171c168a8735813ca",
+    "base_source_sha256": {
+      "lib/matplotlib/text.py": "17a05991a37c59b8f85d6d896513b44d1779ec78cc61da78d526843bfcf80c26"
+    }
+  },
+  {
+    "run": "agentless_gpt4o",
+    "label": "Agentless-1.5 / GPT-4o",
+    "instance_id": "psf__requests-2931",
+    "repo": "psf/requests",
+    "base_commit": "5f7a3a74aab1625c2bb65f643197ee885e3da576",
+    "patch_sha256": "e5b7944297eb7788471b1d8938b7a0f83bf4269de9cd05b301dd72c70f2dc06f",
+    "base_source_sha256": {
+      "requests/models.py": "a57e766a29b120c372e3bd236c80db1b2d696d96593cddb38c4fe150c41285ed"
+    }
+  },
+  {
+    "run": "agentless_gpt4o",
+    "label": "Agentless-1.5 / GPT-4o",
+    "instance_id": "pydata__xarray-4966",
+    "repo": "pydata/xarray",
+    "base_commit": "37522e991a32ee3c0ad1a5ff8afe8e3eb1885550",
+    "patch_sha256": "be217b2fee7a39fe3cad5712108cd3c357187159b39ae9717a2ed88211307fb2",
+    "base_source_sha256": {
+      "xarray/coding/variables.py": "a9b8f8920ca942d5684cf7e9f259f641c863eb466be0e5aad2f7c28b1b20ff82"
+    }
+  },
+  {
+    "run": "agentless_gpt4o",
+    "label": "Agentless-1.5 / GPT-4o",
+    "instance_id": "pylint-dev__pylint-7277",
+    "repo": "pylint-dev/pylint",
+    "base_commit": "684a1d6aa0a6791e20078bc524f97c8906332390",
+    "patch_sha256": "442e6b1b51792bbc284e29d23f7938058de5340fd21a36c21561440af9381892",
+    "base_source_sha256": {
+      "pylint/__init__.py": "ef00ba3e9c79e2be9952db9a0ad62905245dc4fa8759c2d553fc0da3cec3c7d2"
+    }
+  },
+  {
+    "run": "agentless_gpt4o",
+    "label": "Agentless-1.5 / GPT-4o",
+    "instance_id": "pytest-dev__pytest-7571",
+    "repo": "pytest-dev/pytest",
+    "base_commit": "422685d0bdc110547535036c1ff398b5e1c44145",
+    "patch_sha256": "a2ec1395871b80d26c28a42fe288b07a7793420fadc120b85a2f8a514fa08d36",
+    "base_source_sha256": {
+      "src/_pytest/logging.py": "0df6b074700388ef4fea72a36a10ef9fc97680e46dc66ce8bdd73a39d93928af"
+    }
+  },
+  {
+    "run": "agentless_gpt4o",
+    "label": "Agentless-1.5 / GPT-4o",
+    "instance_id": "scikit-learn__scikit-learn-9288",
+    "repo": "scikit-learn/scikit-learn",
+    "base_commit": "3eacf948e0f95ef957862568d87ce082f378e186",
+    "patch_sha256": "206a790bda10cbab1d2747a15cc40c32a7f2db63bf1e3ec804703c927d8a02f0",
+    "base_source_sha256": {
+      "sklearn/cluster/k_means_.py": "9fd1a849a1e0ed24e8966af32830aac4c19e3851d090637c1b0155547f963734"
+    }
+  },
+  {
+    "run": "agentless_gpt4o",
+    "label": "Agentless-1.5 / GPT-4o",
+    "instance_id": "sphinx-doc__sphinx-9698",
+    "repo": "sphinx-doc/sphinx",
+    "base_commit": "f050a7775dfc9000f55d023d36d925a8d02ccfa8",
+    "patch_sha256": "9bc312aba3120fa29a23d6bfae2be1e38aabf4a7935080d7d99eb610021b2dd3",
+    "base_source_sha256": {
+      "sphinx/domains/python.py": "8b5bb01cd8ab0bafeb9fdc8795dcfdf507153c99345a0cd927e988f3a72256d0"
+    }
+  },
+  {
+    "run": "agentless_gpt4o",
+    "label": "Agentless-1.5 / GPT-4o",
+    "instance_id": "sympy__sympy-21847",
+    "repo": "sympy/sympy",
+    "base_commit": "d9b18c518d64d0ebe8e35a98c2fb519938b9b151",
+    "patch_sha256": "ce7a02f366a11da38abc2aa2fa9212e0031a6dea7823fc58148119cdbc4c816b",
+    "base_source_sha256": {
+      "sympy/polys/monomials.py": "a913e1f14ed39320d24446a01a19da552348947ad008a6aacf3fbcb5d8bce453"
+    }
+  },
+  {
+    "run": "agentless_gpt4o",
+    "label": "Agentless-1.5 / GPT-4o",
+    "instance_id": "astropy__astropy-7166",
+    "repo": "astropy/astropy",
+    "base_commit": "26d147868f8a891a6009a25cd6a8576d2e1bd747",
+    "patch_sha256": "4a4c9fd881057dece2d8130e7cd48b371483c7a5f13077cd97964f66cf87c12f",
+    "base_source_sha256": {
+      "astropy/utils/misc.py": "8ae05a98090d689915915b9010180e2548d49361e3702d3a624e4868b2b2bbdb"
+    }
+  },
+  {
+    "run": "agentless_gpt4o",
+    "label": "Agentless-1.5 / GPT-4o",
+    "instance_id": "django__django-16333",
+    "repo": "django/django",
+    "base_commit": "60a7bd89860e504c0c33b02c78edcac87f6d1b5a",
+    "patch_sha256": "f4d6ecdc73279bb60cad182a87b6e2fc2f526f8bad5287790b03a6c271322ef7",
+    "base_source_sha256": {
+      "django/contrib/auth/forms.py": "8aa11871de02922bd92278152bd1ea1291f21d9b36f5a05ce605df4d8328a29a"
+    }
+  },
+  {
+    "run": "agentless_gpt4o",
+    "label": "Agentless-1.5 / GPT-4o",
+    "instance_id": "matplotlib__matplotlib-13989",
+    "repo": "matplotlib/matplotlib",
+    "base_commit": "a3e2897bfaf9eaac1d6649da535c4e721c89fa69",
+    "patch_sha256": "d0ab1ef142316d0ff7366adf92a612a4118d631468205ee39404445ff14410e6",
+    "base_source_sha256": {
+      "lib/matplotlib/axes/_axes.py": "6c4d3e43e8b4842976f388f41a131f1269c5f9131f8ab688a4e98760117c7e83"
+    }
+  },
+  {
+    "run": "agentless_gpt4o",
+    "label": "Agentless-1.5 / GPT-4o",
+    "instance_id": "psf__requests-2317",
+    "repo": "psf/requests",
+    "base_commit": "091991be0da19de9108dbe5e3752917fea3d7fdc",
+    "patch_sha256": "cb13a420899363f881d495caaf972179e793d2fa73c9439540085e821b1ef286",
+    "base_source_sha256": {
+      "requests/sessions.py": "968b595aa5367cec2dc5e519511da8ce2c7d1f6d7c28a9712effa64ae372e104"
+    }
+  },
+  {
+    "run": "agentless_gpt4o",
+    "label": "Agentless-1.5 / GPT-4o",
+    "instance_id": "pydata__xarray-4075",
+    "repo": "pydata/xarray",
+    "base_commit": "19b088636eb7d3f65ab7a1046ac672e0689371d8",
+    "patch_sha256": "ff28ec7e9c0985bdc77ff7f933d3a3342dddd0537c652a807ca4db308b9b0f65",
+    "base_source_sha256": {
+      "xarray/core/weighted.py": "24a8f70e2ad99ab791b157f4bea8f76ee75c02253531fe3f05eed9d57f332985"
+    }
+  },
+  {
+    "run": "agentless_gpt4o",
+    "label": "Agentless-1.5 / GPT-4o",
+    "instance_id": "pytest-dev__pytest-5631",
+    "repo": "pytest-dev/pytest",
+    "base_commit": "cb828ebe70b4fa35cd5f9a7ee024272237eab351",
+    "patch_sha256": "2e383d375b807b3f84c858e7d3ba60c268297b7f941eb50aa9688f6a3ae72f34",
+    "base_source_sha256": {
+      "src/_pytest/compat.py": "ef94b6bffa4d46b678830e705caa855dc0dbc0edd3f819f0e6d52a50b081d524"
+    }
+  },
+  {
+    "run": "agentless_gpt4o",
+    "label": "Agentless-1.5 / GPT-4o",
+    "instance_id": "scikit-learn__scikit-learn-12585",
+    "repo": "scikit-learn/scikit-learn",
+    "base_commit": "bfc4a566423e036fbdc9fb02765fd893e4860c85",
+    "patch_sha256": "bbcd2283861b90e5599d73ce2ad796740f0d7c52c4aa03bfbe9bffbf37b6a3e3",
+    "base_source_sha256": {
+      "sklearn/base.py": "9e536148719a2ffcb0738933aafd4bcde351099797af287beb93238d6881434b"
+    }
+  },
+  {
+    "run": "agentless_gpt4o",
+    "label": "Agentless-1.5 / GPT-4o",
+    "instance_id": "sphinx-doc__sphinx-8721",
+    "repo": "sphinx-doc/sphinx",
+    "base_commit": "82ef497a8c88f0f6e50d84520e7276bfbf65025d",
+    "patch_sha256": "35d4ce9e7a77a3e67f2ced75d732c4c0f18e43bf911931d7cd52cd3c8af151da",
+    "base_source_sha256": {
+      "sphinx/ext/viewcode.py": "4341a9bcd744e6b1ac7b661e8d9679405d40792211c84176c7d80ad3c6130a9f"
+    }
+  },
+  {
+    "run": "agentless_gpt4o",
+    "label": "Agentless-1.5 / GPT-4o",
+    "instance_id": "sympy__sympy-20154",
+    "repo": "sympy/sympy",
+    "base_commit": "bdb49c4abfb35554a3c8ce761696ffff3bb837fe",
+    "patch_sha256": "fe6f4738d643f3afc763bbfcddda7822e184c365d20a92f48feabfdadaac1a3c",
+    "base_source_sha256": {
+      "sympy/utilities/iterables.py": "884be9e39b428daaa909d0ab3e53b5c6490310ecf225c450fc48d2d225fdd027"
+    }
+  }
+]
