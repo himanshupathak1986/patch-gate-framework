@@ -210,6 +210,80 @@ MPLCONFIGDIR=/tmp/patch-gate-mpl .venv/bin/python scripts/build_readme_figures.p
 
 No upstream source checkout is needed to regenerate these figures. [Experiment instructions](experiments/README.md) explain rescanning and replaying the preserved public-patch inputs.
 
+## Reviewer validation experiments (November 2026)
+
+Additional experiments compare PATCH-GATE's existing verification
+policy against simpler alternatives and examine its diagnostic
+coverage. The core implementation and default policy are unchanged.
+
+### Policy comparison
+
+We retrospectively evaluated 60 public patch records across two
+30-patch cohorts.
+
+| Policy | Gemini: files selected (of 38) | Gemini: Bandit warnings preserved | Agentless: files selected (of 30) |
+|---|---:|---:|---:|
+| Full checking | 38 | 1/1 | 30 |
+| PATCH-GATE combined | 19 | 1/1 | 13 |
+| Context-only | 18 | 1/1 | 13 |
+| Size-only | 3 | 0/1 | 0 |
+| Random, matched budget | 19 | 0/1 | 13 |
+
+No newly observed Bandit warnings were present in the Agentless
+full reference. Preservation is therefore undefined for that cohort.
+
+Context-only selection matched the combined policy's observed
+warning preservation while selecting one fewer Gemini file.
+The random result represents one fixed-seed allocation.
+
+Threshold sensitivity was evaluated at 10, 15, 20, 25, and 30
+changed lines. At thresholds 20 through 30, selected-file counts
+were unchanged.
+
+[Complete policy comparison results](paper/tables/reviewer_policy_comparison.csv)
+
+### Controlled diagnostic stress testing
+
+Thirteen constructed Python scenarios produced 15 newly observed
+Bandit warning messages under full checking.
+
+- Adaptive checking preserved 12 of 15 messages.
+- Three messages were missed: B101, B105, and B306.
+- Cases also exercised warning movement, duplication, and benign edits.
+
+These experiments test scanner and selection behavior using
+in-memory snapshots. They do not establish real-world vulnerability
+recall or independently confirmed security defects.
+
+[Diagnostic stress results](paper/tables/reviewer_diagnostic_stress.csv)
+
+### Reproduction
+
+Install dependencies and run:
+
+```bash
+.venv/bin/python -m pip install -r requirements-pilot-dev.txt
+.venv/bin/python -m pytest -q
+.venv/bin/python -m experiments.diagnostic_stress
+.venv/bin/python -m experiments.compare_policies
+```
+
+The policy-comparison script requires the original detailed
+full-reference JSON reports under `outputs/`. Those reports are
+not committed to GitHub. The committed CSV preserves the recorded
+results but cannot reproduce the comparison by itself.
+
+### Environment and limitations
+
+- macOS 26.5, Apple M5, 16 GB RAM
+- Python 3.14.6
+- Existing automated tests: 29 passed
+- Alternative-policy execution times were not measured.
+- Public-patch observations contain only one new Bandit warning.
+- Scanner warnings are not independently verified vulnerabilities.
+
+[Experimental environment](paper/REVIEWER_EXPERIMENT_ENVIRONMENT.md)
+
 ## Research roadmap
 
 The following directions are **planned work**, not capabilities or findings established by this release.
