@@ -1,0 +1,14 @@
+case,adaptive_new_bandit,full_new_bandit,missed_bandit,full_bandit_rules,adaptive_skipped_bandit_snapshots
+eval_new,1,1,0,B307,0
+exec_new,1,1,0,B102,0
+assert_small,0,1,1,B101,2
+hardcoded_password,0,1,1,B105,2
+pickle_loads,2,2,0,B301;B403,0
+subprocess_shell,3,3,0,B404;B602;B607,0
+tempfile_mktemp,0,1,1,B306,2
+hashlib_md5,1,1,0,B324,0
+requests_verify_false,2,2,0,B113;B501,0
+yaml_load,1,1,0,B506,0
+shift_existing,0,0,0,,0
+duplicate_warning,1,1,0,B307,0
+benign_docstring,0,0,0,,2

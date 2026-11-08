@@ -1,0 +1,19 @@
+run,cases_in_sample,policy,changed_line_threshold,files_scanned,bandit_snapshot_scans,bandit_new_preserved,bandit_new_missed,scan_time_seconds
+agentless_gpt4o,30,full,,30,60,0,0,NOT MEASURED
+agentless_gpt4o,30,combined,20,13,26,0,0,NOT MEASURED
+agentless_gpt4o,30,size_only,20,0,0,0,0,NOT MEASURED
+agentless_gpt4o,30,context_only,,13,26,0,0,NOT MEASURED
+agentless_gpt4o,30,random_budget_matched,,13,26,0,0,NOT MEASURED
+agentless_gpt4o,30,combined,10,14,28,0,0,NOT MEASURED
+agentless_gpt4o,30,combined,15,14,28,0,0,NOT MEASURED
+agentless_gpt4o,30,combined,25,13,26,0,0,NOT MEASURED
+agentless_gpt4o,30,combined,30,13,26,0,0,NOT MEASURED
+gemini_mini,30,full,,38,76,1,0,NOT MEASURED
+gemini_mini,30,combined,20,19,38,1,0,NOT MEASURED
+gemini_mini,30,size_only,20,3,6,0,1,NOT MEASURED
+gemini_mini,30,context_only,,18,36,1,0,NOT MEASURED
+gemini_mini,30,random_budget_matched,,19,38,0,1,NOT MEASURED
+gemini_mini,30,combined,10,22,44,1,0,NOT MEASURED
+gemini_mini,30,combined,15,20,40,1,0,NOT MEASURED
+gemini_mini,30,combined,25,19,38,1,0,NOT MEASURED
+gemini_mini,30,combined,30,19,38,1,0,NOT MEASURED
